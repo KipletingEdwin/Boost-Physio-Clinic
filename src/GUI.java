@@ -10,6 +10,7 @@ public class GUI extends JFrame {
         setVisible(true);
 
         JPanel panel = new JPanel();
+        panel.setLayout(new GridLayout(5,1));
 
 
 
