@@ -13,21 +13,11 @@ public class GUI extends JFrame {
         panel.setLayout(new GridLayout(5,1));
 
         JButton bookingBtn = new JButton("Book Appointment");
+        JButton managePatientsBtn = new JButton("Manage Patients");
 
 
         panel.add(bookingBtn);
 
-
-
-
-
-
         add(panel);
-
-
-
-
-
     }
-
 }
