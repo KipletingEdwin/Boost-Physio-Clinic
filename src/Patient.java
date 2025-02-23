@@ -8,6 +8,22 @@ public class Patient {
     public String phone;
 
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
     public  Patient(int id, String name, String address, String phone){
 
         this.id = id;
