@@ -20,6 +20,7 @@ public class GUI extends JFrame {
         panel.add(bookingBtn);
         panel.add(managePatientsBtn);
         panel.add(reportsBtn);
+        panel.add(exitBtn);
 
         add(panel);
     }
