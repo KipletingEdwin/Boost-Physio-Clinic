@@ -22,6 +22,6 @@ public class GUI extends JFrame {
         panel.add(reportsBtn);
         panel.add(exitBtn);
 
-        add(panel);
+        add(panel,BorderLayout.CENTER);
     }
 }

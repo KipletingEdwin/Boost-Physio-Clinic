@@ -8,9 +8,13 @@ public class Physiotherapist {
     public String phone;
 
     public  Physiotherapist(int id, String name, String address, String phone){
+//        List<String> expertise;
+//        List<String> timetable;
 
-        List<String> expertise;
-        List<String> timetable;
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.phone = phone;
 
     }
 
