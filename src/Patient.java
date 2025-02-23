@@ -8,10 +8,12 @@ public class Patient {
     public String phone;
 
 
-    public  Patient(){
-        List<String> bookings;
+    public  Patient(int id, String name, String address, String phone){
 
-
+        this.id = id;
+        this.name = name;
+        this.address = address;
+        this.phone = phone;
     }
 
 

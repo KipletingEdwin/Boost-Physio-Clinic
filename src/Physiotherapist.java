@@ -6,13 +6,14 @@ public class Physiotherapist {
     public String name;
     public String address;
     public String phone;
-    private  List<String> expertise;
+    public  List<String> expertise;
 
-    public  Physiotherapist(int id, String name, String address, String phone){
+    public  Physiotherapist(int id, String name, String address, String phone, List<String> expertise){
         this.id = id;
         this.name = name;
         this.address = address;
         this.phone = phone;
+        this.expertise = expertise;
     }
 
     public int getId() {
