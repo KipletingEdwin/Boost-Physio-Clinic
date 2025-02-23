@@ -4,10 +4,11 @@ import java.awt.*;
 public class GUI extends JFrame {
 
     public GUI() {
-        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setTitle("Boost Physio Clinic Booking System");
         setSize(600, 400);
         setVisible(true);
+        setLayout(new BorderLayout());
 
         JPanel panel = new JPanel();
         panel.setLayout(new GridLayout(5,1));
@@ -16,6 +17,11 @@ public class GUI extends JFrame {
         JButton managePatientsBtn = new JButton("Manage Patients");
         JButton reportsBtn = new JButton("Generate Reports");
         JButton exitBtn = new JButton("Exit");
+
+        bookingBtn.addActionListener(e -> new BookingPanel());
+        managePatientsBtn.addActionListener(e -> new PatientPanel());
+        reportsBtn.addActionListener(e -> new ReportPanel());
+        exitBtn.addActionListener(e -> System.exit(0));
 
         panel.add(bookingBtn);
         panel.add(managePatientsBtn);
