@@ -15,6 +15,7 @@ public class GUI extends JFrame {
         JButton bookingBtn = new JButton("Book Appointment");
         JButton managePatientsBtn = new JButton("Manage Patients");
         JButton reportsBtn = new JButton("Generate Reports");
+        JButton exitBtn = new JButton("Exit");
 
         panel.add(bookingBtn);
         panel.add(managePatientsBtn);
