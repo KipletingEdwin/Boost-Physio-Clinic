@@ -1,4 +1,4 @@
 package com.boostphysio.controller;
 
-public class Physiotherapist {
+public class ClinicManager {
 }
